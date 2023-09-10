@@ -21,7 +21,7 @@ export default function HomeContent() {
     <div className="main">
       <Sidebar />
       <h2 className="main__title">Trending today</h2>
-      <ul>
+      <ul className='main__list'>
         {movies.map(movie => (
           <li key={movie.id}>
             <Link to={`/movies/${movie.id}`}>{movie.title}</Link>

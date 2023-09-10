@@ -8,3 +8,9 @@
   padding: 20px;
   font-size: 40px;
 }
+.main__list {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
