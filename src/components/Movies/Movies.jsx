@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../Movies/movies-module.css';
 import { searchMovies } from 'api/api';
+import { Link } from 'react-router-dom';
 
 export default function Movies() {
   const [query, setQuery] = useState('');
@@ -24,7 +25,9 @@ export default function Movies() {
 
       <ul>
         {movies.map(movie => (
-          <li key={movie.id}>{movie.title}</li>
+          <li key={movie.id}>
+            <Link to={`/movies/${movie.id}`}>{movie.title}</Link>
+          </li>
         ))}
       </ul>
     </div>
