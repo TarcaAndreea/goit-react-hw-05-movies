@@ -1,0 +1,13 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, gray, white);
+}
+.details__info {
+  padding: 20px;
+}
+.details__img {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+}

@@ -1,0 +1,6 @@
+.movies-page {
+  background: linear-gradient(to right, gray, white);
+}
+.movie-input {
+  width: 50%;
+}

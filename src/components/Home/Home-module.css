@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, gray, white);
+  width: 100%;
+}
+.main__title {
+  padding: 20px;
+  font-size: 40px;
+}
