@@ -1,0 +1,11 @@
+.button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgb(54, 54, 115);
+  border-radius: 25px;
+  color: white;
+  margin: 20px;
+}
+.button .fa-arrow-left {
+  margin-right: 5px;
+}

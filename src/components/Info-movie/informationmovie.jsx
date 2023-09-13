@@ -25,11 +25,11 @@ export default function Informationmovie() {
       <div className="details">
         <img className="details__img" src={imageUrl} alt={movie.title} />
         <div className="details__info">
-          <h1>{movie.title}</h1>
+          <h1 className='details__title'>{movie.title}</h1>
           <p>User Score: {movie.vote_average}</p>
-          <h3>Overview</h3>
+          <h3 className='details__subtitle'>Overview</h3>
           <p>{movie.overview}</p>
-          <h3>Genres</h3>
+          <h3 className='details__subtitle'>Genres</h3>
           <ul>
             {movie.genres.map(genre => (
               <li key={genre.id}>{genre.name}</li>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../Movies/movies-module.css';
 import { searchMovies } from 'api/api';
 import { Link } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.min.css';
 
 export default function Movies() {
   const [query, setQuery] = useState('');
@@ -21,11 +22,14 @@ export default function Movies() {
         value={query}
         onChange={e => setQuery(e.target.value)}
       />
-      <button onClick={handleSearch}>Search</button>
+      <button className="button-search" onClick={handleSearch}>
+        Search
+      </button>
 
       <ul>
         {movies.map(movie => (
-          <li key={movie.id}>
+          <li className="movie-item" key={movie.id}>
+            <i className="fa fa-film"></i>
             <Link to={`/movies/${movie.id}`}>{movie.title}</Link>
           </li>
         ))}

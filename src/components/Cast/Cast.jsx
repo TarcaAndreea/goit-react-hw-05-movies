@@ -12,9 +12,9 @@ export default function Cast() {
 
   return (
     <div>
-      <ul>
+      <ul className='cast-list'>
         {cast.map(actor => (
-          <li key={actor.id}>
+          <li  className='cast-item' key={actor.id}>
             {' '}
             <img
               src={`https://image.tmdb.org/t/p/w500${actor.profile_path}`}

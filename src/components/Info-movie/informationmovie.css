@@ -1,7 +1,9 @@
 .details {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(to right, gray, white);
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 .details__info {
   padding: 20px;
@@ -10,4 +12,10 @@
   width: 400px;
   height: 600px;
   border-radius: 20px;
+}
+.details__title {
+  font-size: 30px;
+}
+.details__subtitle {
+  font-size: 25px;
 }

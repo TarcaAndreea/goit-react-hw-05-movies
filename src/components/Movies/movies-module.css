@@ -1,6 +1,32 @@
-.movies-page {
-  background: linear-gradient(to right, gray, white);
-}
 .movie-input {
   width: 50%;
+  margin-left: 30px;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+.button-search {
+  border-radius: 20px;
+  background-color: rgb(54, 54, 115);
+  color: white;
+  padding: 15px 20px;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.movie-item {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.fa {
+  margin-right: 5px;
+}
+.movie-item a {
+  text-decoration: none;
+  color: black;
 }

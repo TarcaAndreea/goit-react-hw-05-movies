@@ -1,0 +1,13 @@
+.aditional-info {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+
+.aditional-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.aditional-info__title {
+  font-size: 30px;
+}
